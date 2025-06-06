@@ -17,4 +17,4 @@ services:
 
 networks:
   postgresql_network:
-    external: true
+    name: postgresql_network
